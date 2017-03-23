@@ -1,0 +1,36 @@
+.initially-hidden {
+  display: none;
+}
+
+body {
+  background-color: darkgray;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+  color:white;
+  text-shadow: pink 5px 5px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 38px;
+  color:pink;
+  text-shadow: white 3px 3px;
+}
+
+img {
+  width: 90%;
+}
+p {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+form {
+  margin-top: 20px;
+
+}

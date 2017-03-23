@@ -8,6 +8,32 @@
     <script src="js/scripts.js" type="text/javascript"></script>
   </head>
   <body>
+    <div class="container">
 
+      <h1>Celebrity Dating Quiz</h1>
+      <form id="personal-info">
+        <label for="age">Age</label>
+        <input id="age" type="text">
+
+        <label for="letter">Favorite Letter</label>
+        <input id="letterInput" type="text">
+
+        <label for="selection">Interest</label>
+        <select id="selection">
+          <option value="men">Men</option>
+          <option value="women">Women</option>
+          <option value="neither">Neither</option>
+          <option value="dinos">Dinosaurs</option>
+        </select>
+        <button type="submit" name="button">Submit</button>
+      </form>
+
+      <div id="jeff" class="initially-hidden">
+        <p>Based on your interest in the letter <span id="fav-letter"></span> we think your ideal celebrity match is:</p>
+        <h2>Jeff Goldblum!</h2>
+        <img src="img/jeff.jpg" alt="Emmy nominated actor Jeff Goldblum"/>
+      </div>
+
+    </div>
   </body>
 </html>
