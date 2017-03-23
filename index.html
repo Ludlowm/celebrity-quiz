@@ -11,6 +11,7 @@
     <div class="container">
 
       <h1>Celebrity Dating Quiz</h1>
+      <p>You have the right to skip this quiz. Anything you say or do or enter can and will be held against you in a court of law.</p>
       <form id="personal-info">
         <label for="age">Age</label>
         <input id="age" type="text">
@@ -30,10 +31,15 @@
 
       <div id="jeff" class="initially-hidden">
         <p>Based on your interest in the letter <span id="fav-letter"></span> we think your ideal celebrity match is:</p>
-        <h2>Jeff Goldblum!</h2>
+        <h2>Jeff Goldblum!<span id="asterisk">*</span></h2>
         <img src="img/jeff.jpg" alt="Emmy nominated actor Jeff Goldblum"/>
       </div>
 
+      <div id="disclaimer" class="initially-hidden">
+        <p>
+          *<span id="disclaimer-text"></span>
+        </p>
+      </div>
     </div>
   </body>
 </html>

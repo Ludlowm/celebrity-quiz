@@ -24,6 +24,11 @@ h2 {
 img {
   width: 90%;
 }
+h1 + p {
+  color: white;
+  text-shadow: pink 1px 1px;
+  font-style: italic;
+}
 p {
   color: white;
   font-size: 20px;
@@ -33,4 +38,21 @@ p {
 form {
   margin-top: 20px;
 
+}
+#asterisk {
+
+}
+
+#disclaimer {
+  color: white;
+  font-size: 8px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 70%;
+}
+
+#disclaimer p {
+  margin: 0px;
+  font-size: 12px;
 }
